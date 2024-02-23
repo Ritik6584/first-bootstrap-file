@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    height: 585px;
+    width: 1280px;
+    /* background-color:red; */
+    background: rgb(61, 59, 88);
+    background: linear-gradient(45deg, rgba(61, 59, 88, 1) 0%, rgba(0, 0, 0, 1) 67%);
+    /* background-image:url("Wave-10s-1280px.png") ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    /* height: 570px; */
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    /* background: rgb(61, 59, 88);
+    background: linear-gradient(45deg, rgba(61, 59, 88, 1) 0%, rgba(0, 0, 0, 1) 67%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.nav {
+    position: absolute;
+    top: 0px;
+    /* margin-top: 10px; */
+    height: 80px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color:white; */
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    flex-wrap: nowrap;
+
+
+}
+
+ul li {
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 400;
+    color: white;
+    /* flex-grow: 1; */
+    line-height: 60px;
+    font-size:12px;
+    /* font-size: clamp(8px, 4vw, 14px); */
+}
+
+.nav ul :hover {
+    color: blue;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .logo {
+    height: 50px;
+    width: 50px;
+    background-blend-mode: lighten;
+} */
+
+
+.hero {
+    height: 80%;
+    width: 80%;
+    /* background-color:aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 5rem;
+    /* column-gap:5vw; */
+}
+
+.headings {
+    display: grid;
+    row-gap: 1.8rem;
+    text-overflow: ellipsis;
+    width: 485px;
+}
+
+.headings h1 {
+    font-family: "Anta", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.headings h3 {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 550;
+    color: #0043de;
+}
+
+.headings h6 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.image img {
+    height: 490px;
+    width: 460px;
+    border-radius: 34% 66% 15% 85% / 88% 0% 100% 12%;
+    box-shadow: 1px 1px 30px 20px black;
+
+}
+
+.button-two {
+    display: flex;
+    column-gap: 20px;
+    /* gap:2rem; */
+    /* justify-content: center; */
+}
+
+.button-two button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    line-height: 1em;
+    width: 124px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.form button {
+    width: 70px;
+    font-size: 12px;
+    font-weight: 600;
+    /* line-height:0.8em; */
+}
+
+.form {
+    column-gap: 5px;
+}
+
+.button-two button:active,
+.button-two button:hover {
+    outline: 0;
+}
+
+.button-two button span {
+    background-color: rgb(5, 6, 45);
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    height: 40%;
+    transition: 300ms;
+}
+
+.form button span {
+    padding: 8px;
+}
+
+.button-two button:hover span {
+    background: none;
+}
+
+.button-two button:active {
+    transform: scale(0.9);
+}
+
+@media screen and (min-width:320px) and (max-width:567px) {
+
+    /* .container{
+        width:100%;
+        height:100%;
+    } */
+    /* .hero{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    } */
+    
+}
