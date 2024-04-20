@@ -1,1 +1,2 @@
-Basic Project Of Fitness Website
+# Minor Projects For College
+
