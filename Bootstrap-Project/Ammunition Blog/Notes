@@ -1,0 +1,14 @@
+Notes :-
+
+Q.1 What is Bootrstrap?
+Ans. Bootstrap is a framework to frame our website or make its layout creative.
+
+Q.2 what is meant by color in bootstrap?
+Ans. Blue ---denotes the primary color,
+     Green ---denotes the succes color,
+     White ---denotes the light color,
+     Black ---denotes the dark color,
+     Red ---denotes the danger color,
+     Yellow ---denotes the warning.
+     
+img-fluid class makes the images responsive
